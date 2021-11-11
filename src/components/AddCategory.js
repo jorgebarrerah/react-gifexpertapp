@@ -23,7 +23,7 @@ export const AddCategory = ({setCategories}) => {
         <form onSubmit={handleSubmit}>
             <input 
                 type="text"
-                placeholder="Enter a category"
+                placeholder="Enter a category and press ENTER"
                 value= {inputValue}
                 onChange={handleInputValue}
             />
